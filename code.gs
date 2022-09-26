@@ -1,8 +1,8 @@
 
 function myFunction() {
   
-  const form = FormApp.openById('formid') 
-  const token = ["token"] 
+  const form = FormApp.openById('formid') //เปลี่ยนเป็ย Form ID ของตัวเอง
+  const token = ["token"] //เป็น Token ที่ได้จาก LineNotify
   
   const formResponses = form.getResponses()
   if (formResponses.length > 0) {
