@@ -1,6 +1,9 @@
 
 function myFunction() {
-  const form = FormApp.openById('formid')
+  
+  const form = FormApp.openById('formid') 
+  const token = ["token"] 
+  
   const formResponses = form.getResponses()
   if (formResponses.length > 0) {
     formResponses
@@ -15,7 +18,6 @@ function myFunction() {
   var itemRespon = []
   var imgRes = ""
   var urlimage = ""
-  var token = ["token"]
 
   for (var i = 0; i < itemResponses.length; i++) {
     titleRespon.push(itemResponses[i].getItem().getTitle())
