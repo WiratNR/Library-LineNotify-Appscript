@@ -3,7 +3,7 @@
 
 # สามารถส่งได้หลายกลุ่ม :
  ```javascript
-const token = ["xxxxxxxxxxxxxx","xxxxxxxxxxxxxxxxx"] //รูปแบบจะเป็นแบบนี้
+const token = ["token1","token2"] //รูปแบบจะเป็นแบบนี้
 ```
 # LibraryLineNotify :
 ScriptID: 1Nsy06e5D6PHVUdgIIwEjL77ICYfTmsPcI_XhENneAlrSG-j1U_FwSEoF
