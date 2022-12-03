@@ -1,5 +1,5 @@
 # GoogleForm-Library-LineNotify
-เป็นโค้ดที่เอาไว้ใช้กับ Google-Form ส่งข้อมูล+รูปภาพ ผ่าน Library LineNotify
+เป็น Library LineNotify สามารถ เอาไปใช้กับ AppScript
 
 # สามารถส่งได้หลายกลุ่ม :
  ```javascript
